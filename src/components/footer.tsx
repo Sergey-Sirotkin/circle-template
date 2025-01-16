@@ -22,19 +22,16 @@ const Footer = () => {
         <div className="place-self-end self-center xxs:hidden lg:block">
           <ul className="text-xl font-poppins font-bold">
             <li>
-              <Link to="/">Demos</Link>
+              <Link to="/demos">Demos</Link>
             </li>
             <li>
-              <Link to="/">Company</Link>
+              <Link to="/about">Company</Link>
             </li>
             <li>
-              <Link to="/">Products</Link>
+              <Link to="/product">Product</Link>
             </li>{" "}
             <li>
-              <Link to="/">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="/">Blog</Link>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
