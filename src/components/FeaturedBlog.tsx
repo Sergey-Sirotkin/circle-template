@@ -19,7 +19,7 @@ const FeaturedBlog = () => {
             alt="blog"
             src="https://images.unsplash.com/photo-1620034949504-339c43e9cd56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
           ></img>
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 text-3xl text-white font-bold p-2">
+          <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 text-3xl text-white font-bold p-2">
             The quick brown fox jumped over the lazy dog.
           </div>
         </div>
@@ -29,7 +29,7 @@ const FeaturedBlog = () => {
             alt="blog"
             src="https://images.unsplash.com/photo-1620034949504-339c43e9cd56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
           ></img>
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 text-3xl text-white font-bold p-2">
+          <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 text-3xl text-white font-bold p-2">
             The quick brown fox jumped over the lazy dog.
           </div>
         </div>
@@ -39,7 +39,7 @@ const FeaturedBlog = () => {
             alt="blog"
             src="https://images.unsplash.com/photo-1620034949504-339c43e9cd56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
           ></img>
-          <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 text-3xl text-white font-bold p-2">
+          <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 text-3xl text-white font-bold p-2">
             The quick brown fox jumped over the lazy dog.
           </div>
         </div>

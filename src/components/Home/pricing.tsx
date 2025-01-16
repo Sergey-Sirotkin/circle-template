@@ -36,6 +36,8 @@ const PricingMain = () => {
               <div className="mt-5">
                 <Button
                   colorClass="bg-white"
+                  textColor="text-black"
+                  marginClass="m-2"
                   title="Request Access"
                   onClick={() => {}}
                 ></Button>

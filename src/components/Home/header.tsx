@@ -17,7 +17,7 @@ const Header = () => {
 
           <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-2xl sm:text-lg md:text-2xl lg:text-4xl xl:text-7xl 2xl:text-8xl">
             Change starts with <br></br> a{" "}
-            <span class="text-gradient bg-gradient-to-r from-pink to-purple">
+            <span className="text-gradient bg-gradient-to-r from-pink to-purple">
               single click.
             </span>
           </h1>
@@ -25,12 +25,17 @@ const Header = () => {
       </Fade>
       <Fade bottom>
         <div className="mt-10 xxs:flex xxs:flex-row sm:block">
-          <Input placeholder="email."></Input>
+          <Input
+            onChange={e => console.log(e.target.value)}
+            placeholder="email."
+          ></Input>
+
           <Button
             colorClass="bg-gradient-to-r from-pink to-purple "
             title="Request Access"
             textColor="text-white"
             marginClass="ml-5"
+            onClick={() => console.log("Request Access")}
           ></Button>
         </div>
       </Fade>

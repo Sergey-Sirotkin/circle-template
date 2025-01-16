@@ -15,7 +15,10 @@ const PricingCTA = () => {
       <div className="mt-2">
         <Button
           title="Start Free Trial"
-          colorClass="bg-gradient-to-r from-pink to-purple "
+          colorClass="bg-gradient-to-r from-pink to-purple"
+          textColor="text-white"
+          onClick={() => console.log('Button clicked')}
+          marginClass="mt-4"
         ></Button>
       </div>
     </div>
