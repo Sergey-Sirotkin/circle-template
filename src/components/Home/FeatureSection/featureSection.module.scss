@@ -1,0 +1,157 @@
+.featureContainer {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.statsRow {
+  display: flex;
+  width: 100%;
+  margin-top: 2.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 639px) {
+    flex-direction: column; /* xxs:flex-col */
+  }
+}
+
+.statsCard {
+  width: 100%;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #141414, #141414);
+  transition: background-image 0.5s ease-in-out;
+
+  &:hover {
+    background-image: linear-gradient(to right, blue, darkblue);
+  }
+}
+
+.statsValue {
+  color: white;
+  font-size: 3rem;
+}
+
+.statsDescription {
+  color: white;
+}
+
+.sectionDescription {
+  margin-top: 2.5rem;
+  padding: 0 2rem;
+}
+
+.heading {
+  color: white;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1;
+
+  @media (max-width: 639px) {
+    font-size: 1.875rem; /* sm:text-3xl */
+    line-height: 2.25rem;
+  }
+
+  @media (max-width: 424px) {
+    font-size: 1.5rem; /* xs:text-2xl */
+    line-height: 2rem;
+  }
+
+  @media (max-width: 319px) {
+    font-size: 1.5rem; /* xxs:text-2xl */
+    line-height: 2rem;
+  }
+}
+
+.subheading {
+  color: white;
+  font-size: 0.875rem;
+  opacity: 0.5;
+  margin-top: 1.25rem;
+}
+
+.infoRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+  }
+}
+
+.featuresRow {
+  display: flex;
+  width: 100%;
+  margin-top: 2.5rem;
+  justify-content: space-between;
+
+  @media (max-width: 639px) {
+    flex-direction: column; /* sm:flex-row */
+  }
+}
+
+.infoCardGradient,
+.featureCardGradient {
+  width: 100%;
+  padding: 2rem;
+  margin: 1.25rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, blue, darkblue);
+
+  @media (min-width: 640px) {
+    width: 33.333%;
+  }
+}
+
+.infoCardDark,
+.featureCardDark {
+  width: 100%;
+  padding: 2rem;
+  margin: 1.25rem;
+  border-radius: 1rem;
+  background-color: #141414;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: 640px) {
+    flex: 33.333%;
+  }
+}
+
+.cardHeading,
+.featureHeading {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.cardDetails {
+  margin-top: 1.25rem;
+}
+
+.cardLabel {
+  color: white;
+  opacity: 0.5;
+  font-size: 1.25rem;
+}
+
+.cardValue {
+  color: white;
+  font-size: 0.875rem;
+}
+
+.cardParagraph,
+.featureParagraph {
+  color: white;
+  opacity: 0.5;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+}

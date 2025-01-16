@@ -1,0 +1,101 @@
+.headerContainer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subheading {
+  color: rgba(255, 255, 255, 1);
+  font-family: poppins, sans-serif;
+  opacity: 0.5;
+  font-weight: 600;
+  margin-top: 5rem;
+  font-size: 0.75rem;
+
+  @media (min-width: 320px) {
+    font-size: 0.75rem;
+  }
+  @media (min-width: 640px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.25rem;
+  }
+}
+
+.mainHeading {
+  color: rgba(255, 255, 255, 1);
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  @media (min-width: 320px) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 640px) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  @media (min-width: 1280px) {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
+.gradientText {
+  background-image: linear-gradient(to right, blue, darkblue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.actionContainer {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 640px) {
+    display: block;
+  }
+}
+
+.buttonGradient {
+  background-image: linear-gradient(to right, blue, darkblue);
+}
+
+.buttonText {
+  color: rgba(255, 255, 255, 1);
+}
+
+.buttonMargin {
+  margin-left: 1.25rem;
+}
+
+.imageContainer {
+  max-width: 80rem;
+  margin: 2.5rem auto 0;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.headerImage {
+  width: 100%;
+  height: 100%;
+}
