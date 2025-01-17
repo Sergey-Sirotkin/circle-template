@@ -1,0 +1,12 @@
+:root {
+  --gradient-blue-to-darkblue: linear-gradient(
+    to right,
+    rgb(28, 181, 224),
+    rgb(0, 0, 70)
+  );
+  --gradien-blue-to-lightblue: linear-gradient(
+    90deg,
+    rgba(28, 181, 224, 1) 0%,
+    rgba(0, 70, 144, 1) 100%
+  );
+}

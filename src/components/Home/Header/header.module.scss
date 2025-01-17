@@ -55,7 +55,7 @@
 }
 
 .gradientText {
-  background-image: linear-gradient(to right, blue, darkblue);
+  background-image: var(--gradien-blue-to-lightblue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -72,7 +72,7 @@
 }
 
 .buttonGradient {
-  background-image: linear-gradient(to right, blue, darkblue);
+  background-image: var(--gradient-blue-to-darkblue);
 }
 
 .buttonText {
